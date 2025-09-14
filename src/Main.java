@@ -22,7 +22,7 @@ public class Main {
 
             else {
 
-                System.out.println("Please enter a operation.\n+, -, x, or ÷");
+                System.out.println("Please enter a operation.\n+, -, x, or /");
                 String opp = scanner.next();
 
                 if (opp.equals("+") || opp.equals("-")  || opp.equals("x") || opp.equals("/") || opp.equals("e") || opp.equals("s")) {
@@ -65,7 +65,7 @@ public class Main {
 
                                 i++;
                             }
-                            System.out.print(exp);
+                            System.out.println(exp);
 
 
 
